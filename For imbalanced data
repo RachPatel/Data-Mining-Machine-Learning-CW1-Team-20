@@ -1,0 +1,9 @@
+CW dataset is imbalanced - i.e., all the target attributes do not have similar frequency of occurance. 
+The following paper is a good example of how to address this:
+https://europepmc.org/article/PMC/5919997#Sec2
+Comparing the performance of meta-classifiers-a case study on selected imbalanced data sets relevant for prediction of liver toxicity.
+Their conclusion: 'While MetaCost and CostSensitiveClassifier provided better sensitivity values, Stratified Bagging resulted in high balanced accuracies.'
+
+
+MetaCost:
+https://homes.cs.washington.edu/~pedrod/papers/kdd99.pdf
