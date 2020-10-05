@@ -8,3 +8,6 @@ https://github.com/kyamagu/js-segment-annotator
 https://github.com/buni-rock/Pixie     ------ this one is a Java Applet
 https://github.com/tzutalin/labelImg --------Python code
 https://github.com/wkentaro/labelme ------Python but difficult to follow
+
+
+Unfortunately, the data provided is already pixelated so will be not able to use any of the annotation tools ;(
