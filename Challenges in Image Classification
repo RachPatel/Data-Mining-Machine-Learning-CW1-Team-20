@@ -1,1 +1,9 @@
 https://towardsdatascience.com/main-challenges-in-image-classification-ba24dc78b558
+There are following main challenges in image classification:
+1. Intra-Class Variation
+2. Scale Variation
+3. View-Point Variation
+4. Occlusion
+5. Illumination
+6. Background Clutter
+
