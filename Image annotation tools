@@ -1,0 +1,10 @@
+Links to image annotation tools:
+https://awesomeopensource.com/project/jsbroks/awesome-dataset-tools#images ------master collection
+Few gems:
+https://github.com/christopher5106/FastAnnotationTool
+https://github.com/bit-bots/imagetagger
+https://github.com/jveitchmichaelis/deeplabel
+https://github.com/kyamagu/js-segment-annotator
+https://github.com/buni-rock/Pixie     ------ this one is a Java Applet
+https://github.com/tzutalin/labelImg --------Python code
+https://github.com/wkentaro/labelme ------Python but difficult to follow
