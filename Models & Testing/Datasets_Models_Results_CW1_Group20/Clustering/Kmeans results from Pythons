@@ -1,0 +1,142 @@
+K mean in Python
+
+
+Std scaling
+k = 12: Interia: 8170261 
+k = 12: Silhouette Score: 0.13429
+k = 12: Calinski Harabasz Score: 1524
+k = 12: Result: 854 out of 9690 samples were correctly labeled.
+k = 12: Accuracy score: 0.09
+
+Minmax Scaling
+k = 12: Interia: 570428 
+k = 12: Silhouette Score: 0.13655
+k = 12: Calinski Harabasz Score: 1589
+k = 12: Result: 719 out of 9690 samples were correctly labeled.
+k = 12: Accuracy score: 0.07
+
+
+Std Scaling
+k = 8: Interia: 8971464 
+k = 8: Silhouette Score: 0.15635
+k = 8: Calinski Harabasz Score: 2058
+k = 8: Result: 1107 out of 9690 samples were correctly labeled.
+k = 8: Accuracy score: 0.11
+
+MinMax Scaling
+k = 8: Interia: 627152 
+k = 8: Silhouette Score: 0.15596
+k = 8: Calinski Harabasz Score: 2148
+k = 8: Result: 1333 out of 9690 samples were correctly labeled.
+k = 8: Accuracy score: 0.14
+
+Std Scaling
+k = 3: Interia: 12412909 
+k = 3: Silhouette Score: 0.31755
+k = 3: Calinski Harabasz Score: 3867
+k = 3: Result: 1515 out of 9690 samples were correctly labeled.
+k = 3: Accuracy score: 0.16
+
+MinMax Scaling
+k = 3: Interia: 869078 
+k = 3: Silhouette Score: 0.21445
+k = 3: Calinski Harabasz Score: 2977
+k = 3: Result: 1235 out of 9690 samples were correctly labeled.
+k = 3: Accuracy score: 0.13
+
+
+Std Scaling
+k = 5: Interia: 10223284 
+k = 5: Silhouette Score: 0.21465
+k = 5: Calinski Harabasz Score: 2866
+k = 5: Result: 1706 out of 9690 samples were correctly labeled.
+k = 5: Accuracy score: 0.18
+
+MinMax Scaling
+k = 5: Interia: 718108 
+k = 5: Silhouette Score: 0.21445
+k = 5: Calinski Harabasz Score: 2977
+k = 5: Result: 1235 out of 9690 samples were correctly labeled.
+k = 5: Accuracy score: 0.13
+
+
+Std Scaling
+k = 10: Interia: 8532422 
+k = 10: Silhouette Score: 0.15372
+k = 10: Calinski Harabasz Score: 1738
+k = 10: Result: 646 out of 9690 samples were correctly labeled.
+k = 10: Accuracy score: 0.07
+
+MinMax Scaling
+k = 10: Interia: 597403 
+k = 10: Silhouette Score: 0.13921
+k = 10: Calinski Harabasz Score: 1807
+k = 10: Result: 961 out of 9690 samples were correctly labeled.
+k = 10: Accuracy score: 0.10
+
+
+Std Scaling: Seed 10, K= 10
+seed = 10: Interia: 8531954 
+seed = 10: Silhouette Score: 0.15377
+seed = 10: Calinski Harabasz Score: 1738
+seed = 10: Result: 1362 out of 9690 samples were correctly labeled.
+seed = 10: Accuracy score: 0.14
+
+MinMaxScaling: Seed 10, K= 10
+seed = 10: Interia: 596071 
+seed = 10: Silhouette Score: 0.14367
+seed = 10: Calinski Harabasz Score: 1813
+seed = 10: Result: 865 out of 9690 samples were correctly labeled.
+seed = 10: Accuracy score: 0.09
+
+Std Scaling: Seed 50, K= 10
+Seed = 50: Interia: 8532140 
+Seed = 50: Silhouette Score: 0.14467
+Seed = 50: Calinski Harabasz Score: 1738
+Seed = 50: Result: 1051 out of 9690 samples were correctly labeled.
+Seed = 50: Accuracy score: 0.11
+
+MinMax Scaling: Seed 50, K= 10
+Seed = 50: Interia: 597417 
+Seed = 50: Silhouette Score: 0.13451
+Seed = 50: Calinski Harabasz Score: 1807
+Seed = 50: Result: 1221 out of 9690 samples were correctly labeled.
+Seed = 50: Accuracy score: 0.13
+
+Std Scaling: Seed 100, K= 10
+Seed = 100: Interia: 8531954 
+Seed = 100: Silhouette Score: 0.15377
+Seed = 100: Calinski Harabasz Score: 1738
+Seed = 100: Result: 1362 out of 9690 samples were correctly labeled.
+Seed = 100: Accuracy score: 0.14
+
+MinMaxScaling: Seed 100, K= 10
+Seed = 100: Interia: 596071 
+Seed = 100: Silhouette Score: 0.14367
+Seed = 100: Calinski Harabasz Score: 1813
+Seed = 100: Result: 865 out of 9690 samples were correctly labeled.
+Seed = 100: Accuracy score: 0.09
+
+Std Scaling on Top 20 Exploratory Dataset: Seed 50, K= 10
+Seed = 50: Interia: 332790 
+Seed = 50: Silhouette Score: 0.18382
+Seed = 50: Calinski Harabasz Score: 2682
+Seed = 50: Result: 337 out of 9690 samples were correctly labeled.
+Seed = 50: Accuracy score: 0.03
+
+MinMax Scaling on Top 20 Exploratory Dataset: Seed 50, K= 10
+Seed = 50: Interia: 22858 
+Seed = 50: Silhouette Score: 0.18977
+Seed = 50: Calinski Harabasz Score: 2921
+Seed = 50: Result: 682 out of 9690 samples were correctly labeled.
+Seed = 50: Accuracy score: 0.07
+
+X: MinMax scaling
+Result: 682 out of 9690 samples were correctly labeled.
+Accuracy score: 0.07
+
+X: Std scaling
+Result: 682 out of 9690 samples were correctly labeled.
+Accuracy score: 0.07
+
+

@@ -1,0 +1,208 @@
+== Run information ===
+
+1. EM: 10 seeds
+
+Scheme:       weka.clusterers.EM -I 100 -N 10 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 10
+Relation:     Top_20_Exploratory_random-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    9690
+Attributes:   120
+              [list of attributes omitted]
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 10
+Number of iterations performed: 43
+
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3   4   5   6   7   8   9  <-- assigned to cluster
+  48  90   0   1   0   6  18   0   0  47 | 0
+ 416 558  40 512 234  16   7  58   1 378 | 1
+ 432 329  90 597 220  17   1 102   0 462 | 2
+ 127  23 382   1 258   5   8 226  91 289 | 3
+ 224 187 305 438 243  13   1 216 138 215 | 4
+  36   2   0  31  13  48  39   2  30   9 | 5
+  29   0 141   0 107  14  58   4   0   7 | 6
+   0   5   4   2  54  95  76   1   0   3 | 7
+  19  25  67  77  39 184 123   5   0   1 | 8
+  49   8   0   2  24   3 103   0   1  80 | 9
+
+Cluster  0 <-- 0
+Cluster  1 <-- 1
+Cluster  2 <-- 3
+Cluster  3 <-- 4
+Cluster  4 <-- 6
+Cluster  5 <-- 8
+Cluster  6 <-- 9
+Cluster  7 <-- 7
+Cluster  8 <-- 5
+Cluster  9 <-- 2
+
+Incorrectly clustered instances :	7377.0	 76.13   %
+
+======================================================================
+
+
+EM: 20 seeds 
+
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N 10 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 20
+Relation:     Top_20_Exploratory_random-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    9690
+Attributes:   120
+              [list of attributes omitted]
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 10
+Number of iterations performed: 81
+
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3   4   5   6   7   8   9  <-- assigned to cluster
+  71  89   0   7   0   0   1   3  18  21 | 0
+ 435 585   4 116 498  60 322   4  39 157 | 1
+ 373 399   2 311 582 119 334   9  22  99 | 2
+ 154  28 159 129   1 448 390  12   8  81 | 3
+ 182 263 179 119 427 409 366   0   7  28 | 4
+   2   2  30  64  31   0   5  17  58   1 | 5
+   5   1   2  68   0  97  54 116  12   5 | 6
+   0   6   0  42   2   0  28  50 110   2 | 7
+   1  17   0  95  75  69  23  34 225   1 | 8
+   3   1   0 206   2   0  20  13  19   6 | 9
+
+Cluster  0 <-- 0
+Cluster  1 <-- 1
+Cluster  2 <-- 5
+Cluster  3 <-- 9
+Cluster  4 <-- 2
+Cluster  5 <-- 3
+Cluster  6 <-- 4
+Cluster  7 <-- 6
+Cluster  8 <-- 8
+Cluster  9 <-- 7
+
+Incorrectly clustered instances :	7059.0	 72.8483 %
+
+======================================================================
+
+EM: 50 seeds
+
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N 10 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 50
+Relation:     Top_20_Exploratory_random-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    9690
+Attributes:   120
+              [list of attributes omitted]
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 10
+Number of iterations performed: 73
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3   4   5   6   7   8   9  <-- assigned to cluster
+   0  44   0  70  45   0   0   3   2  46 | 0
+   4 324 259 146 523  52 512  25   7 368 | 1
+   0 364 258  35 378 115 603  39   6 452 | 2
+ 159 121 314   6  38 428   3  42   0 299 | 3
+ 176 185 350  12 230 366 441   9   0 211 | 4
+  30  62  11  23  11   0  32  10  26   5 | 5
+   0  46  85   2   0  95   0 116  10   6 | 6
+   0  16  37  12   5   0   1  64 101   4 | 7
+   0  72  33 104  33  66  82  35 115   0 | 8
+   0 151  18  16   2   0   2  20   0  61 | 9
+
+Cluster  0 <-- 5
+Cluster  1 <-- 9
+Cluster  2 <-- 4
+Cluster  3 <-- 8
+Cluster  4 <-- 1
+Cluster  5 <-- 3
+Cluster  6 <-- 2
+Cluster  7 <-- 6
+Cluster  8 <-- 7
+Cluster  9 <-- 0
+
+Incorrectly clustered instances :	7238.0	 74.6956 %
+====================================================================
+
+Seed = 100
+
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N 10 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     Top_20_Exploratory_random-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    9690
+Attributes:   120
+              [list of attributes omitted]
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 10
+Number of iterations performed: 48
+
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3   4   5   6   7   8   9  <-- assigned to cluster
+  15  88   7  74   1   4   0   9   0  12 | 0
+  10 667 172 478 512 282   4  33  52  10 | 1
+   4 440 212 519 607 327   2  24 112   3 | 2
+   6  50 135 205   4 420 158   5 427   0 | 3
+   0 268  78 220 441 417 173  16 367   0 | 4
+  36   3  32   3  30   7  30  55   0  14 | 5
+  42   1  62   3   0 130   4  23  95   0 | 6
+  69   4  21   0   2  39   2  62   2  39 | 7
+ 108  17  17   2   0  47   0 149  67 133 | 8
+  68   6  96  12   3  13   1  71   0   0 | 9
+
+Cluster  0 <-- 7
+Cluster  1 <-- 1
+Cluster  2 <-- 6
+Cluster  3 <-- 0
+Cluster  4 <-- 2
+Cluster  5 <-- 4
+Cluster  6 <-- 5
+Cluster  7 <-- 9
+Cluster  8 <-- 3
+Cluster  9 <-- 8
+
+Incorrectly clustered instances :	7133.0	 73.612  %
+
+
+
+
