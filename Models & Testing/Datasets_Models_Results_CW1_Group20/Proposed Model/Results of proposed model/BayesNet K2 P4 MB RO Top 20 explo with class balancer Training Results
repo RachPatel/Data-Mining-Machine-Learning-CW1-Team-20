@@ -1,0 +1,194 @@
+=
+Top 20 explo normalised data 
+Class Balancer
+K2 P4 MB RO 
+Training 
+
+== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 4 -R -mbc -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Top_20_Explo_train_set-weka.filters.supervised.instance.ClassBalancer-num-intervals10
+Instances:    7752
+Attributes:   120
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=120 #classindex=119
+Network structure (nodes followed by parents)
+792(13): Class 793 
+742(13): Class 794 648 
+747(12): Class 746 
+741(12): Class 742 
+697(13): Class 746 648 
+698(14): Class 697 
+1214(13): Class 1310 
+2068(14): Class 2067 
+1869(14): Class 1676 
+1119(13): Class 1168 
+648(11): Class 1134 
+1676(14): Class 707 
+2111(13): Class 1869 
+1120(19): Class 1168 
+2067(13): Class 1869 
+2260(15): Class 2212 
+2162(15): Class 2067 
+2301(13): Class 1869 
+2212(14): Class 2162 
+2210(14): Class 2162 
+1168(15): Class 1606 
+1167(14): Class 1119 
+1263(11): Class 1167 
+1073(11): Class 1120 
+1072(13): Class 1120 
+1121(13): Class 1073 
+1074(9): Class 1121 1073 
+1310(14): Class 1119 
+599(13): Class 648 
+1314(17): Class 1313 
+1315(12): Class 1314 
+1316(13): Class 1364 
+1268(13): Class 1316 1220 
+1264(14): Class 1168 1313 
+1030(17): Class 982 
+1364(12): Class 1459 
+981(10): Class 934 
+982(13): Class 934 981 
+1317(11): Class 1316 
+1269(12): Class 1317 
+1265(16): Class 1313 1217 
+1313(14): Class 1606 
+1312(13): Class 1264 
+1266(15): Class 1314 1218 
+1217(14): Class 1218 
+1361(15): Class 1313 
+1218(13): Class 
+1219(15): Class 1218 
+1170(15): Class 1171 
+1171(14): Class 1218 
+1220(13): Class 1219 
+1172(16): Class 1171 
+983(14): Class 934 
+1031(15): Class 983 
+935(13): Class 983 
+934(13): Class 1172 
+1509(16): Class 1510 
+1461(15): Class 1462 1460 
+1462(14): Class 1510 
+1508(13): Class 1507 1509 
+1460(14): Class 1459 
+745(12): Class 746 
+746(12): Class 742 794 
+1507(13): Class 1459 
+1459(15): Class 1218 
+1519(17): Class 1507 
+1471(17): Class 1519 
+1458(12): Class 1459 
+794(14): Class 1606 
+1792(15): Class 1743 1842 
+1126(16): Class 1031 
+1793(12): Class 1744 1792 
+1173(15): Class 1172 
+1842(11): Class 1743 
+1840(11): Class 1742 
+1843(12): Class 1842 
+793(13): Class 794 
+795(12): Class 794 
+1134(13): Class 1135 
+842(11): Class 794 
+1086(14): Class 1134 
+1085(11): Class 1037 
+1037(14): Class 1086 
+1135(12): Class 1606 
+843(14): Class 842 
+1234(10): Class 1558 
+1601(15): Class 1600 
+1663(15): Class 1649 
+1649(17): Class 1648 
+1600(19): Class 1649 
+1743(13): Class 1218 
+1648(19): Class 1695 
+1713(15): Class 1666 1760 
+1714(15): Class 1761 1667 
+1744(14): Class 1695 
+1518(16): Class 1519 
+1695(18): Class 1743 
+1470(15): Class 1471 
+1742(14): Class 1743 
+1760(13): Class 1743 
+1506(13): Class 1507 1505 
+1761(13): Class 1760 
+1517(15): Class 1518 
+1125(20): Class 1126 
+1715(15): Class 1762 
+1666(14): Class 1760 
+1762(12): Class 1761 
+1667(11): Class 1761 
+1606(11): Class 1510 1364 
+1558(13): Class 1511 
+1511(13): Class 1510 
+1510(13): Class 1218 
+706(11): Class 707 
+1505(16): Class 1168 
+707(15): Class 1842 
+1553(19): Class 1505 
+560(16): Class 707 
+1647(13): Class 1648 1695 
+2174(14): Class 2162 
+Class(10): 
+LogScore Bayes: -1190276.7168351542
+LogScore BDeu: -6805731.867477924
+LogScore MDL: -4612314.750631927
+LogScore ENTROPY: -1954982.0985983398
+LogScore AIC: -2548421.0985985133
+
+
+Time taken to build model: 35.25 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.66 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        7420.1531          95.7192 %
+Incorrectly Classified Instances       331.8469           4.2808 %
+Kappa statistic                          0.9524
+Mean absolute error                      0.0089
+Root mean squared error                  0.0863
+Relative absolute error                  4.934  %
+Root relative squared error             28.7611 %
+Total Number of Instances             7752     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.934    0.010    0.914      0.934    0.924      0.915    0.997     0.980     four
+                 0.864    0.007    0.929      0.864    0.896      0.885    0.991     0.957     one
+                 0.994    0.000    1.000      0.994    0.997      0.997    1.000     1.000     five
+                 0.993    0.000    0.997      0.993    0.995      0.994    1.000     1.000     six
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     seven
+                 0.983    0.000    1.000      0.983    0.992      0.991    1.000     1.000     eight
+                 0.869    0.010    0.904      0.869    0.886      0.874    0.991     0.952     two
+                 0.950    0.018    0.852      0.950    0.899      0.888    0.996     0.967     three
+                 0.994    0.001    0.991      0.994    0.992      0.991    1.000     1.000     zero
+                 0.991    0.001    0.995      0.991    0.993      0.992    1.000     1.000     nine
+Weighted Avg.    0.957    0.005    0.958      0.957    0.957      0.953    0.998     0.986     
+
+=== Confusion Matrix ===
+
+   a      b      c      d      e      f      g      h      i      j      <-- classified as
+ 724.07  14.61   0      0      0      0     21.91  10.71   3.9    0    |      a = four
+  32.73 670.12   0      0      0      0     26.27  42.64   3.45   0    |      b = one
+   0      0    770.67   0      0      0      4.53   0      0      0    |      c = five
+   0      2.87   0    769.46   0      0      2.87   0      0      0    |      d = six
+   0      0      0      0    775.2    0      0      0      0      0    |      e = seven
+   0      1.85   0      1.85   0    762.28   1.85   3.69   0      3.69 |      f = eight
+  23.32  14.68   0      0.43   0      0    673.28  63.48   0      0    |      g = two
+   7.55  17.17   0      0      0      0     13.73 736.75   0      0    |      h = three
+   4.76   0      0      0      0      0      0      0    770.44   0    |      i = zero
+   0      0      0      0      0      0      0      7.31   0    767.89 |      j = nine
+
