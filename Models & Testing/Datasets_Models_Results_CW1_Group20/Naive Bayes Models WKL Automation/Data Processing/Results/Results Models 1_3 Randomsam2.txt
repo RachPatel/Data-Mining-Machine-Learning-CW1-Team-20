@@ -1,0 +1,145 @@
+Model 1 :
+Dataset : Random2.arff
+
+=== Evaluation result ===
+
+Scheme: NaiveBayes
+Relation: x_train_gr_smpl-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+
+=== Summary ===
+
+Correctly Classified Instances        3061               31.5893 %
+Incorrectly Classified Instances      6629               68.4107 %
+Kappa statistic                          0.2228
+Mean absolute error                      0.1369
+Root mean squared error                  0.3692
+Relative absolute error                 83.0653 %
+Root relative squared error            128.6409 %
+Total Number of Instances             9690     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.824    0.124    0.128      0.824    0.222      0.294    0.890     0.125     0
+                 0.375    0.171    0.395      0.375    0.385      0.208    0.691     0.352     1
+                 0.184    0.060    0.482      0.184    0.266      0.184    0.680     0.377     2
+                 0.538    0.136    0.403      0.538    0.461      0.358    0.782     0.361     3
+                 0.083    0.028    0.435      0.083    0.140      0.116    0.661     0.305     4
+                 0.200    0.016    0.222      0.200    0.211      0.194    0.741     0.111     5
+                 0.586    0.088    0.204      0.586    0.303      0.305    0.769     0.193     6
+                 0.558    0.067    0.174      0.558    0.266      0.283    0.813     0.148     7
+                 0.241    0.006    0.688      0.241    0.357      0.389    0.767     0.344     8
+                 0.748    0.078    0.216      0.748    0.336      0.374    0.901     0.208     9
+Weighted Avg.    0.316    0.089    0.414      0.316    0.302      0.227    0.717     0.324     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+ 173  22   3   0   2   0   0   9   1   0 |   a = 0
+ 601 832 186 160  48   7  42 235   1 108 |   b = 1
+ 281 622 414 306 100  44 125 136  10 212 |   c = 2
+  52 119  51 758  36   9 204  35  14 132 |   d = 3
+ 107 401 191 609 165  27 247  85   6 142 |   e = 4
+  23   6   0  23   0  42  37  26  10  43 |   f = 5
+   0  26   3  11  13  17 211  31   7  41 |   g = 6
+  17  10   0  12   6   3  36 134   0  22 |   h = 7
+  94  48  11   2   6  33 123  61 130  32 |   i = 8
+   3  20   0   1   3   7   8  16  10 202 |   j = 9
+
+
+Model 2 :
+Dataset : Random2.arff
+
+=== Evaluation result ===
+
+Scheme: NaiveBayes
+Relation: x_train_gr_smpl-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+
+=== Summary ===
+
+Correctly Classified Instances        3727               38.4623 %
+Incorrectly Classified Instances      5963               61.5377 %
+Kappa statistic                          0.2571
+Mean absolute error                      0.1231
+Root mean squared error                  0.3504
+Relative absolute error                 74.7017 %
+Root relative squared error            122.0718 %
+Total Number of Instances             9690     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.676    0.077    0.163      0.676    0.263      0.305    0.865     0.140     0
+                 0.491    0.218    0.401      0.491    0.441      0.255    0.708     0.370     1
+                 0.350    0.197    0.349      0.350    0.350      0.153    0.660     0.324     2
+                 0.647    0.182    0.377      0.647    0.476      0.379    0.788     0.338     3
+                 0.182    0.027    0.630      0.182    0.282      0.264    0.668     0.376     4
+                 0.243    0.003    0.607      0.243    0.347      0.376    0.733     0.241     5
+                 0.397    0.016    0.486      0.397    0.437      0.420    0.784     0.293     6
+                 0.104    0.006    0.316      0.104    0.157      0.170    0.822     0.216     7
+                 0.191    0.002    0.851      0.191    0.312      0.390    0.785     0.383     8
+                 0.422    0.017    0.410      0.422    0.416      0.399    0.910     0.323     9
+Weighted Avg.    0.385    0.131    0.458      0.385    0.372      0.270    0.720     0.341     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j   <-- classified as
+  142   54   10    1    1    0    0    0    1    1 |    a = 0
+  391 1089  455  222   26    0    0    5    0   32 |    b = 1
+  126  762  788  417   65    0   43   24    2   23 |    c = 2
+   19  140  171  912   90    0   23    5    0   50 |    d = 3
+   71  452  427  544  360   33   72   20    0    1 |    e = 4
+   19   23   58   40    7   51    0    0    9    3 |    f = 5
+   12   15   77   90    5    0  143    0    4   14 |    g = 6
+    5   58   74   58    6    0    4   25    0   10 |    h = 7
+   85   82  112  110    9    0    9    0  103   30 |    i = 8
+    0   41   85   26    2    0    0    0    2  114 |    j = 9
+
+
+Model 3 :
+Dataset : Random2.arff
+
+=== Evaluation result ===
+
+Scheme: NaiveBayes
+Relation: x_train_gr_smpl-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6
+
+=== Summary ===
+
+Correctly Classified Instances        3727               38.4623 %
+Incorrectly Classified Instances      5963               61.5377 %
+Kappa statistic                          0.2571
+Mean absolute error                      0.1231
+Root mean squared error                  0.3504
+Relative absolute error                 74.7017 %
+Root relative squared error            122.0718 %
+Total Number of Instances             9690     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.676    0.077    0.163      0.676    0.263      0.305    0.865     0.140     0
+                 0.491    0.218    0.401      0.491    0.441      0.255    0.708     0.370     1
+                 0.350    0.197    0.349      0.350    0.350      0.153    0.660     0.324     2
+                 0.647    0.182    0.377      0.647    0.476      0.379    0.788     0.338     3
+                 0.182    0.027    0.630      0.182    0.282      0.264    0.668     0.376     4
+                 0.243    0.003    0.607      0.243    0.347      0.376    0.733     0.241     5
+                 0.397    0.016    0.486      0.397    0.437      0.420    0.784     0.293     6
+                 0.104    0.006    0.316      0.104    0.157      0.170    0.822     0.216     7
+                 0.191    0.002    0.851      0.191    0.312      0.390    0.785     0.383     8
+                 0.422    0.017    0.410      0.422    0.416      0.399    0.910     0.323     9
+Weighted Avg.    0.385    0.131    0.458      0.385    0.372      0.270    0.720     0.341     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j   <-- classified as
+  142   54   10    1    1    0    0    0    1    1 |    a = 0
+  391 1089  455  222   26    0    0    5    0   32 |    b = 1
+  126  762  788  417   65    0   43   24    2   23 |    c = 2
+   19  140  171  912   90    0   23    5    0   50 |    d = 3
+   71  452  427  544  360   33   72   20    0    1 |    e = 4
+   19   23   58   40    7   51    0    0    9    3 |    f = 5
+   12   15   77   90    5    0  143    0    4   14 |    g = 6
+    5   58   74   58    6    0    4   25    0   10 |    h = 7
+   85   82  112  110    9    0    9    0  103   30 |    i = 8
+    0   41   85   26    2    0    0    0    2  114 |    j = 9
