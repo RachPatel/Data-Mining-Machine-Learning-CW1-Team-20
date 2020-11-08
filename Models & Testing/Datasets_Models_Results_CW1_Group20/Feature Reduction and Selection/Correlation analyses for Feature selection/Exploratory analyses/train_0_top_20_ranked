@@ -1,0 +1,88 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 20
+Relation:     x_train_gr_smpl-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1
+Instances:    9690
+Attributes:   45
+              X648
+              X697
+              X698
+              X741
+              X742
+              X747
+              X792
+              X996
+              X1044
+              X1119
+              X1120
+              X1121
+              X1122
+              X1169
+              X1214
+              X1319
+              X1367
+              X1676
+              X1865
+              X1869
+              X1882
+              X1912
+              X1928
+              X1959
+              X1975
+              X1977
+              X2022
+              X2023
+              X2026
+              X2029
+              X2067
+              X2068
+              X2111
+              X2117
+              X2162
+              X2210
+              X2212
+              X2213
+              X2214
+              X2260
+              X2261
+              X2262
+              X2264
+              X2301
+              LABEL
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 45 LABEL):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.0171    7 X792
+ 0.0169    5 X742
+ 0.0167    6 X747
+ 0.0163    4 X741
+ 0.0161    2 X697
+ 0.0161    3 X698
+ 0.0155   15 X1214
+ 0.0152   32 X2068
+ 0.0152   20 X1869
+ 0.0151   10 X1119
+ 0.0151    1 X648
+ 0.0151   18 X1676
+ 0.015    33 X2111
+ 0.015    11 X1120
+ 0.0149   31 X2067
+ 0.0149   40 X2260
+ 0.0148   35 X2162
+ 0.0148   44 X2301
+ 0.0147   37 X2212
+ 0.0147   36 X2210
+
+Selected attributes: 7,5,6,4,2,3,15,32,20,10,1,18,33,11,31,40,35,44,37,36 : 20
+
+

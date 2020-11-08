@@ -1,0 +1,43 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 20
+Relation:     x_train_gr_smpl-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1
+Instances:    9690
+Attributes:   11
+              X599
+              X1072
+              X1073
+              X1074
+              X1120
+              X1121
+              X1167
+              X1168
+              X1263
+              X1310
+              LABEL
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 11 LABEL):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.0326   8 X1168
+ 0.0326   7 X1167
+ 0.0323   5 X1120
+ 0.0306   9 X1263
+ 0.0298   3 X1073
+ 0.0292   2 X1072
+ 0.0289   6 X1121
+ 0.0284   4 X1074
+ 0.0263  10 X1310
+ 0.0247   1 X599
+
+Selected attributes: 8,7,5,9,3,2,6,4,10,1 : 10
+
