@@ -1,0 +1,511 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 5 -R -mbc -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Top_20_Explo_train_set_nom
+Instances:    7752
+Attributes:   120
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+=
+K2P5 MB RO Top 20 Explo training and test results
+
+Training:
+
+== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=120 #classindex=119
+Network structure (nodes followed by parents)
+792(10): Class 1037 1074 
+742(8): Class 741 745 
+747(8): Class 746 
+741(10): Class 792 1310 
+697(9): Class 745 648 
+698(10): Class 697 747 
+1214(8): Class 1310 
+2068(9): Class 2067 
+1869(8): Class 2301 
+1119(9): Class 1167 1214 
+648(8): Class 741 599 
+1676(9): Class 1869 
+2111(8): Class 1869 2301 
+1120(9): Class 1167 1121 
+2067(9): Class 2260 
+2260(8): Class 1037 
+2162(9): Class 2067 
+2301(8): Class 2174 2162 
+2212(11): Class 2260 2162 
+2210(8): Class 2162 
+1168(9): Class 1120 1263 
+1167(8): Class 1214 1073 
+1263(8): Class 1167 1310 
+1073(8): Class 1121 1074 
+1072(9): Class 1120 1167 
+1121(10): Class 1074 1217 
+1074(8): Class 1171 
+1310(9): Class 1085 1648 
+599(8): Class 1037 
+1314(9): Class 792 1171 
+1315(11): Class 1314 1268 
+1316(8): Class 1364 1268 
+1268(9): Class 1030 1314 
+1264(9): Class 1265 1263 
+1030(12): Class 934 1314 
+1364(11): Class 1268 1460 
+981(9): Class 982 
+982(11): Class 1030 934 
+1317(9): Class 1364 1268 
+1269(8): Class 1317 1268 
+1265(9): Class 1313 1217 
+1313(10): Class 1314 
+1312(9): Class 1264 
+1266(10): Class 1314 1218 
+1217(9): Class 1313 1074 
+1361(11): Class 1313 
+1218(10): Class 1217 1171 
+1219(9): Class 1218 
+1170(9): Class 1171 1217 
+1171(11): Class 
+1220(11): Class 1219 1268 
+1172(8): Class 1171 
+983(11): Class 982 1085 
+1031(10): Class 983 
+935(10): Class 983 934 
+934(10): Class 1171 1037 
+1509(9): Class 1508 1511 
+1461(10): Class 1462 1460 
+1462(8): Class 1509 
+1508(9): Class 1460 1518 
+1460(9): Class 1074 1171 
+745(9): Class 746 792 
+746(7): Class 741 792 
+1507(9): Class 1506 1508 
+1459(10): Class 1460 
+1519(12): Class 1518 
+1471(10): Class 1470 
+1458(8): Class 1459 1506 
+794(9): Class 792 746 
+1792(10): Class 1793 1840 
+1126(11): Class 1030 
+1793(9): Class 1744 
+1173(10): Class 1125 1172 
+1842(8): Class 1793 1840 
+1840(8): Class 1744 
+1843(8): Class 1842 1793 
+793(9): Class 794 792 
+795(7): Class 794 746 
+1134(10): Class 1086 
+842(8): Class 843 794 
+1086(9): Class 1085 1037 
+1085(10): Class 1037 792 
+1037(9): Class 1074 1663 
+1135(10): Class 1086 
+843(8): Class 795 794 
+1234(8): Class 1606 1125 
+1601(10): Class 1310 1648 
+1663(10): Class 1074 
+1649(10): Class 1600 1648 
+1600(9): Class 1601 1648 
+1743(10): Class 1792 1744 
+1648(9): Class 1663 
+1713(10): Class 1760 1714 
+1714(8): Class 1715 1760 
+1744(10): Class 792 
+1518(9): Class 1517 
+1695(10): Class 1744 
+1470(8): Class 1460 1760 
+1742(9): Class 1743 1840 
+1760(9): Class 1744 
+1506(9): Class 1505 1508 
+1761(8): Class 1714 1762 
+1517(9): Class 1171 
+1125(9): Class 1126 1172 
+1715(10): Class 1792 1760 
+1666(9): Class 1713 
+1762(9): Class 1715 
+1667(10): Class 1714 
+1606(9): Class 1313 792 
+1558(9): Class 1511 1606 
+1511(9): Class 1606 
+1510(8): Class 1511 1509 
+706(8): Class 707 
+1505(10): Class 1606 1840 
+707(9): Class 1840 1744 
+1553(10): Class 1601 1505 
+560(11): Class 707 
+1647(11): Class 1648 1695 
+2174(9): Class 2260 
+Class(10): 
+LogScore Bayes: -894923.8047716547
+LogScore BDeu: -5811335.155425709
+LogScore MDL: -4036230.009492572
+LogScore ENTROPY: -1532890.724766247
+LogScore AIC: -2091939.7247656656
+
+
+Time taken to build model: 24.45 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.69 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        7280               93.9112 %
+Incorrectly Classified Instances       472                6.0888 %
+Kappa statistic                          0.9259
+Mean absolute error                      0.013 
+Root mean squared error                  0.0998
+Relative absolute error                  7.9125 %
+Root relative squared error             34.7709 %
+Total Number of Instances             7752     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.946    0.012    0.933      0.946    0.939      0.929    0.997     0.984     three
+                 0.954    0.030    0.907      0.954    0.930      0.908    0.995     0.985     two
+                 0.913    0.014    0.951      0.913    0.931      0.912    0.994     0.984     one
+                 0.970    0.001    0.984      0.970    0.977      0.975    1.000     0.998     eight
+                 0.948    0.019    0.928      0.948    0.938      0.921    0.997     0.988     four
+                 0.958    0.000    1.000      0.958    0.979      0.978    1.000     1.000     seven
+                 0.968    0.001    0.981      0.968    0.974      0.974    1.000     0.993     nine
+                 0.815    0.000    1.000      0.815    0.898      0.901    1.000     0.995     zero
+                 0.931    0.001    0.978      0.931    0.954      0.952    1.000     0.997     six
+                 0.935    0.000    1.000      0.935    0.966      0.966    1.000     0.998     five
+Weighted Avg.    0.939    0.016    0.940      0.939    0.939      0.925    0.996     0.988     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j   <-- classified as
+ 1067   34   19    0    8    0    0    0    0    0 |    a = three
+   38 1717   16    0   29    0    0    0    0    0 |    b = two
+   20   71 1621    0   64    0    0    0    0    0 |    c = one
+    5    4    1  419    0    0    1    0    2    0 |    d = eight
+    6   51   26    0 1501    0    0    0    0    0 |    e = four
+    1    0    1    2    2  184    1    0    1    0 |    f = seven
+    1    3    1    0    0    0  209    0    2    0 |    g = nine
+    0    5   15    0   11    0    0  137    0    0 |    h = zero
+    5    6    3    4    2    0    0    0  268    0 |    i = six
+    1    3    2    1    1    0    2    0    1  157 |    j = five
+
+Test:
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.bayes.BayesNet -- -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 5 -R -mbc -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Top_20_Explo_train_set_nom
+Instances:    7752
+Attributes:   120
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+Bayes Network Classifier
+not using ADTree
+#attributes=120 #classindex=119
+Network structure (nodes followed by parents)
+792(10): Class 1317 
+742(8): Class 741 745 
+747(8): Class 746 698 
+741(10): Class 698 745 
+697(9): Class 698 
+698(10): Class 746 648 
+1214(8): Class 1310 1119 
+2068(9): Class 2067 
+1869(8): Class 792 
+1119(9): Class 1263 1120 
+648(8): Class 745 
+1676(9): Class 1869 
+2111(8): Class 1869 
+1120(9): Class 792 
+2067(9): Class 2174 1869 
+2260(8): Class 2067 
+2162(9): Class 2067 
+2301(8): Class 2111 1869 
+2212(11): Class 2260 2162 
+2210(8): Class 2162 
+1168(9): Class 1120 1263 
+1167(8): Class 1119 
+1263(8): Class 1120 792 
+1073(8): Class 1121 1072 
+1072(9): Class 1120 1119 
+1121(10): Class 1168 1074 
+1074(8): Class 1265 1120 
+1310(9): Class 1263 
+599(8): Class 648 
+1314(9): Class 1266 1315 
+1315(11): Class 1266 1214 
+1316(8): Class 1364 
+1268(9): Class 1220 1316 
+1264(9): Class 1265 1263 
+1030(12): Class 1031 1125 
+1364(11): Class 1315 1317 
+981(9): Class 1030 
+982(11): Class 1030 981 
+1317(9): Class 
+1269(8): Class 1317 
+1265(9): Class 792 1170 
+1313(10): Class 1265 1361 
+1312(9): Class 1264 
+1266(10): Class 1265 1313 
+1217(9): Class 1265 1170 
+1361(11): Class 1265 
+1218(10): Class 1265 1170 
+1219(9): Class 1218 1220 
+1170(9): Class 1317 792 
+1171(11): Class 1170 1219 
+1220(11): Class 1269 
+1172(8): Class 1171 1173 
+983(11): Class 1031 
+1031(10): Class 1085 1126 
+935(10): Class 983 934 
+934(10): Class 1126 1031 
+1509(9): Class 1511 
+1461(10): Class 1460 1509 
+1462(8): Class 1509 1461 
+1508(9): Class 1509 1460 
+1460(9): Class 1317 
+745(9): Class 792 794 
+746(7): Class 745 
+1507(9): Class 1508 
+1459(10): Class 1458 1460 
+1519(12): Class 1269 
+1471(10): Class 1470 
+1458(8): Class 1460 1125 
+794(9): Class 792 
+1792(10): Class 1743 1793 
+1126(11): Class 1511 1269 
+1793(9): Class 1743 
+1173(10): Class 1125 1220 
+1842(8): Class 1843 1792 
+1840(8): Class 1742 1842 
+1843(8): Class 1793 1743 
+793(9): Class 794 792 
+795(7): Class 794 746 
+1134(10): Class 1086 
+842(8): Class 843 794 
+1086(9): Class 745 794 
+1085(10): Class 1086 
+1037(9): Class 1085 
+1135(10): Class 1086 1134 
+843(8): Class 794 
+1234(8): Class 1126 795 
+1601(10): Class 1600 
+1663(10): Class 1649 1135 
+1649(10): Class 1310 648 
+1600(9): Class 1649 
+1743(10): Class 1742 
+1648(9): Class 1649 1647 
+1713(10): Class 1666 1760 
+1714(8): Class 1761 1667 
+1744(10): Class 1695 1793 
+1518(9): Class 1519 
+1695(10): Class 1743 
+1470(8): Class 1460 1511 
+1742(9): Class 1762 
+1760(9): Class 1761 1714 
+1506(9): Class 1507 1505 
+1761(8): Class 1269 
+1517(9): Class 1518 
+1125(9): Class 1126 
+1715(10): Class 1762 1667 
+1666(9): Class 1760 1714 
+1762(9): Class 1761 
+1667(10): Class 1761 
+1606(9): Class 1558 1263 
+1558(9): Class 1511 1265 
+1511(9): Class 792 1170 
+1510(8): Class 1558 1509 
+706(8): Class 1761 
+1505(10): Class 1168 1507 
+707(9): Class 560 706 
+1553(10): Class 1601 1505 
+560(11): Class 706 1742 
+1647(11): Class 1695 1649 
+2174(9): Class 1869 
+Class(10): 
+LogScore Bayes: -894028.3941019501
+LogScore BDeu: -5679236.747607527
+LogScore MDL: -3947773.020497537
+LogScore ENTROPY: -1515362.9285078584
+LogScore AIC: -2058571.928507317
+
+Attribute mappings:
+
+Model attributes 	    Incoming attributes
+-----------------	    ----------------
+(numeric) 792    	--> 1 (numeric) 792
+(numeric) 742    	--> 2 (numeric) 742
+(numeric) 747    	--> 3 (numeric) 747
+(numeric) 741    	--> 4 (numeric) 741
+(numeric) 697    	--> 5 (numeric) 697
+(numeric) 698    	--> 6 (numeric) 698
+(numeric) 1214   	--> 7 (numeric) 1214
+(numeric) 2068   	--> 8 (numeric) 2068
+(numeric) 1869   	--> 9 (numeric) 1869
+(numeric) 1119   	--> 10 (numeric) 1119
+(numeric) 648    	--> 11 (numeric) 648
+(numeric) 1676   	--> 12 (numeric) 1676
+(numeric) 2111   	--> 13 (numeric) 2111
+(numeric) 1120   	--> 14 (numeric) 1120
+(numeric) 2067   	--> 15 (numeric) 2067
+(numeric) 2260   	--> 16 (numeric) 2260
+(numeric) 2162   	--> 17 (numeric) 2162
+(numeric) 2301   	--> 18 (numeric) 2301
+(numeric) 2212   	--> 19 (numeric) 2212
+(numeric) 2210   	--> 20 (numeric) 2210
+(numeric) 1168   	--> 21 (numeric) 1168
+(numeric) 1167   	--> 22 (numeric) 1167
+(numeric) 1263   	--> 23 (numeric) 1263
+(numeric) 1073   	--> 24 (numeric) 1073
+(numeric) 1072   	--> 25 (numeric) 1072
+(numeric) 1121   	--> 26 (numeric) 1121
+(numeric) 1074   	--> 27 (numeric) 1074
+(numeric) 1310   	--> 28 (numeric) 1310
+(numeric) 599    	--> 29 (numeric) 599
+(numeric) 1314   	--> 30 (numeric) 1314
+(numeric) 1315   	--> 31 (numeric) 1315
+(numeric) 1316   	--> 32 (numeric) 1316
+(numeric) 1268   	--> 33 (numeric) 1268
+(numeric) 1264   	--> 34 (numeric) 1264
+(numeric) 1030   	--> 35 (numeric) 1030
+(numeric) 1364   	--> 36 (numeric) 1364
+(numeric) 981    	--> 37 (numeric) 981
+(numeric) 982    	--> 38 (numeric) 982
+(numeric) 1317   	--> 39 (numeric) 1317
+(numeric) 1269   	--> 40 (numeric) 1269
+(numeric) 1265   	--> 41 (numeric) 1265
+(numeric) 1313   	--> 42 (numeric) 1313
+(numeric) 1312   	--> 43 (numeric) 1312
+(numeric) 1266   	--> 44 (numeric) 1266
+(numeric) 1217   	--> 45 (numeric) 1217
+(numeric) 1361   	--> 46 (numeric) 1361
+(numeric) 1218   	--> 47 (numeric) 1218
+(numeric) 1219   	--> 48 (numeric) 1219
+(numeric) 1170   	--> 49 (numeric) 1170
+(numeric) 1171   	--> 50 (numeric) 1171
+(numeric) 1220   	--> 51 (numeric) 1220
+(numeric) 1172   	--> 52 (numeric) 1172
+(numeric) 983    	--> 53 (numeric) 983
+(numeric) 1031   	--> 54 (numeric) 1031
+(numeric) 935    	--> 55 (numeric) 935
+(numeric) 934    	--> 56 (numeric) 934
+(numeric) 1509   	--> 57 (numeric) 1509
+(numeric) 1461   	--> 58 (numeric) 1461
+(numeric) 1462   	--> 59 (numeric) 1462
+(numeric) 1508   	--> 60 (numeric) 1508
+(numeric) 1460   	--> 61 (numeric) 1460
+(numeric) 745    	--> 62 (numeric) 745
+(numeric) 746    	--> 63 (numeric) 746
+(numeric) 1507   	--> 64 (numeric) 1507
+(numeric) 1459   	--> 65 (numeric) 1459
+(numeric) 1519   	--> 66 (numeric) 1519
+(numeric) 1471   	--> 67 (numeric) 1471
+(numeric) 1458   	--> 68 (numeric) 1458
+(numeric) 794    	--> 69 (numeric) 794
+(numeric) 1792   	--> 70 (numeric) 1792
+(numeric) 1126   	--> 71 (numeric) 1126
+(numeric) 1793   	--> 72 (numeric) 1793
+(numeric) 1173   	--> 73 (numeric) 1173
+(numeric) 1842   	--> 74 (numeric) 1842
+(numeric) 1840   	--> 75 (numeric) 1840
+(numeric) 1843   	--> 76 (numeric) 1843
+(numeric) 793    	--> 77 (numeric) 793
+(numeric) 795    	--> 78 (numeric) 795
+(numeric) 1134   	--> 79 (numeric) 1134
+(numeric) 842    	--> 80 (numeric) 842
+(numeric) 1086   	--> 81 (numeric) 1086
+(numeric) 1085   	--> 82 (numeric) 1085
+(numeric) 1037   	--> 83 (numeric) 1037
+(numeric) 1135   	--> 84 (numeric) 1135
+(numeric) 843    	--> 85 (numeric) 843
+(numeric) 1234   	--> 86 (numeric) 1234
+(numeric) 1601   	--> 87 (numeric) 1601
+(numeric) 1663   	--> 88 (numeric) 1663
+(numeric) 1649   	--> 89 (numeric) 1649
+(numeric) 1600   	--> 90 (numeric) 1600
+(numeric) 1743   	--> 91 (numeric) 1743
+(numeric) 1648   	--> 92 (numeric) 1648
+(numeric) 1713   	--> 93 (numeric) 1713
+(numeric) 1714   	--> 94 (numeric) 1714
+(numeric) 1744   	--> 95 (numeric) 1744
+(numeric) 1518   	--> 96 (numeric) 1518
+(numeric) 1695   	--> 97 (numeric) 1695
+(numeric) 1470   	--> 98 (numeric) 1470
+(numeric) 1742   	--> 99 (numeric) 1742
+(numeric) 1760   	--> 100 (numeric) 1760
+(numeric) 1506   	--> 101 (numeric) 1506
+(numeric) 1761   	--> 102 (numeric) 1761
+(numeric) 1517   	--> 103 (numeric) 1517
+(numeric) 1125   	--> 104 (numeric) 1125
+(numeric) 1715   	--> 105 (numeric) 1715
+(numeric) 1666   	--> 106 (numeric) 1666
+(numeric) 1762   	--> 107 (numeric) 1762
+(numeric) 1667   	--> 108 (numeric) 1667
+(numeric) 1606   	--> 109 (numeric) 1606
+(numeric) 1558   	--> 110 (numeric) 1558
+(numeric) 1511   	--> 111 (numeric) 1511
+(numeric) 1510   	--> 112 (numeric) 1510
+(numeric) 706    	--> 113 (numeric) 706
+(numeric) 1505   	--> 114 (numeric) 1505
+(numeric) 707    	--> 115 (numeric) 707
+(numeric) 1553   	--> 116 (numeric) 1553
+(numeric) 560    	--> 117 (numeric) 560
+(numeric) 1647   	--> 118 (numeric) 1647
+(numeric) 2174   	--> 119 (numeric) 2174
+(nominal) Class  	--> 120 (nominal) Class
+
+
+Time taken to build model: 25.55 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.23 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1668               86.0681 %
+Incorrectly Classified Instances       270               13.9319 %
+Kappa statistic                          0.8296
+Mean absolute error                      0.0296
+Root mean squared error                  0.1577
+Relative absolute error                 17.9592 %
+Root relative squared error             54.9595 %
+Total Number of Instances             1938     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.876    0.024    0.861      0.876    0.868      0.846    0.979     0.926     three
+                 0.907    0.063    0.814      0.907    0.858      0.814    0.977     0.941     two
+                 0.863    0.047    0.845      0.863    0.854      0.810    0.972     0.924     one
+                 0.926    0.005    0.917      0.926    0.922      0.917    0.998     0.970     eight
+                 0.889    0.024    0.905      0.889    0.897      0.871    0.986     0.961     four
+                 0.750    0.001    0.973      0.750    0.847      0.851    0.998     0.940     seven
+                 0.722    0.006    0.765      0.722    0.743      0.736    0.979     0.803     nine
+                 0.476    0.000    1.000      0.476    0.645      0.686    0.984     0.852     zero
+                 0.764    0.004    0.887      0.764    0.821      0.817    0.988     0.876     six
+                 0.667    0.001    0.966      0.667    0.789      0.799    0.999     0.955     five
+Weighted Avg.    0.861    0.034    0.865      0.861    0.859      0.831    0.981     0.933     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+ 247  18  10   0   7   0   0   0   0   0 |   a = three
+  11 408  17   0  14   0   0   0   0   0 |   b = two
+  13  37 383   0  11   0   0   0   0   0 |   c = one
+   4   1   0 100   0   0   1   0   2   0 |   d = eight
+   5  21  18   0 352   0   0   0   0   0 |   e = four
+   0   1   0   0   1  36   7   0   3   0 |   f = seven
+   1   3   5   3   1   0  39   0   2   0 |   g = nine
+   0   3  18   1   0   0   0  20   0   0 |   h = zero
+   6   2   2   3   1   0   2   0  55   1 |   i = six
+   0   7   0   2   2   1   2   0   0  28 |   j = five
+
+
+

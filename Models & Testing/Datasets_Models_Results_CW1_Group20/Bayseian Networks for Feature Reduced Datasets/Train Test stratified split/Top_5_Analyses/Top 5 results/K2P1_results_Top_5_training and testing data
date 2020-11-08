@@ -1,0 +1,363 @@
+
+K2P1 Bayes Net Model: Top 5 Training and Test datasets
+
+Training 
+
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Top_5_train_set_nom
+Instances:    7752
+Attributes:   43
+              744
+              745
+              792
+              742
+              747
+              1168
+              1167
+              1120
+              1215
+              1216
+              1609
+              1656
+              1610
+              1608
+              1658
+              1657
+              1265
+              983
+              1031
+              935
+              982
+              1363
+              1509
+              1461
+              1462
+              1508
+              1460
+              793
+              746
+              794
+              1705
+              1704
+              1695
+              1714
+              1173
+              1125
+              1647
+              1655
+              1654
+              1560
+              1561
+              1606
+              Class
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=43 #classindex=42
+Network structure (nodes followed by parents)
+744(8): Class 
+745(9): Class 
+792(9): Class 
+742(8): Class 
+747(8): Class 
+1168(9): Class 
+1167(9): Class 
+1120(10): Class 
+1215(9): Class 
+1216(11): Class 
+1609(8): Class 
+1656(9): Class 
+1610(11): Class 
+1608(11): Class 
+1658(7): Class 
+1657(9): Class 
+1265(9): Class 
+983(11): Class 
+1031(10): Class 
+935(9): Class 
+982(11): Class 
+1363(11): Class 
+1509(9): Class 
+1461(11): Class 
+1462(9): Class 
+1508(8): Class 
+1460(9): Class 
+793(8): Class 
+746(8): Class 
+794(8): Class 
+1705(8): Class 
+1704(9): Class 
+1695(11): Class 
+1714(8): Class 
+1173(12): Class 
+1125(10): Class 
+1647(10): Class 
+1655(9): Class 
+1654(9): Class 
+1560(10): Class 
+1561(8): Class 
+1606(9): Class 
+Class(10): 
+LogScore Bayes: -606898.3497621879
+LogScore BDeu: -622493.7408122233
+LogScore MDL: -620326.6950334315
+LogScore ENTROPY: -604748.2441792956
+LogScore AIC: -608227.2441792956
+
+
+Time taken to build model: 0.46 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.2 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        2718               35.0619 %
+Incorrectly Classified Instances      5034               64.9381 %
+Kappa statistic                          0.271 
+Mean absolute error                      0.1299
+Root mean squared error                  0.3442
+Relative absolute error                 78.8223 %
+Root relative squared error            119.9038 %
+Total Number of Instances             7752     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.632    0.198    0.353      0.632    0.453      0.349    0.823     0.438     three
+                 0.298    0.072    0.555      0.298    0.388      0.289    0.727     0.517     two
+                 0.146    0.081    0.349      0.146    0.206      0.093    0.702     0.353     one
+                 0.581    0.013    0.732      0.581    0.648      0.634    0.851     0.644     eight
+                 0.146    0.000    0.987      0.146    0.255      0.343    0.789     0.655     four
+                 0.464    0.004    0.730      0.464    0.567      0.573    0.959     0.613     seven
+                 0.856    0.084    0.227      0.856    0.359      0.415    0.952     0.627     nine
+                 0.917    0.208    0.089      0.917    0.162      0.248    0.940     0.431     zero
+                 0.681    0.056    0.321      0.681    0.436      0.439    0.916     0.580     six
+                 0.601    0.008    0.627      0.601    0.614      0.606    0.972     0.683     five
+Weighted Avg.    0.351    0.074    0.554      0.351    0.349      0.305    0.784     0.513     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+ 713  20  53  20   0   0 113  91 114   4 |   a = three
+ 343 537 230   7   0  12 211 385  61  14 |   b = two
+ 295 261 260   6   1   2  76 832  37   6 |   c = one
+  10   7   7 251   0   1  65   9  79   3 |   d = eight
+ 611 138 184   4 232  13  63 254  71  14 |   e = four
+   2   0   5  15   0  89  23   1  42  15 |   f = seven
+   8   1   3   4   1   0 185   3  10   1 |   g = nine
+  10   0   1   1   0   0   2 154   0   0 |   h = zero
+  25   2   3  14   0   2  43   0 196   3 |   i = six
+   5   1   0  21   1   3  34   1   1 101 |   j = five
+
+
+Test
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.bayes.BayesNet -- -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     Top_5_train_set_nom
+Instances:    7752
+Attributes:   43
+              744
+              745
+              792
+              742
+              747
+              1168
+              1167
+              1120
+              1215
+              1216
+              1609
+              1656
+              1610
+              1608
+              1658
+              1657
+              1265
+              983
+              1031
+              935
+              982
+              1363
+              1509
+              1461
+              1462
+              1508
+              1460
+              793
+              746
+              794
+              1705
+              1704
+              1695
+              1714
+              1173
+              1125
+              1647
+              1655
+              1654
+              1560
+              1561
+              1606
+              Class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+Bayes Network Classifier
+not using ADTree
+#attributes=43 #classindex=42
+Network structure (nodes followed by parents)
+744(8): Class 
+745(9): Class 
+792(9): Class 
+742(8): Class 
+747(8): Class 
+1168(9): Class 
+1167(9): Class 
+1120(10): Class 
+1215(9): Class 
+1216(11): Class 
+1609(8): Class 
+1656(9): Class 
+1610(11): Class 
+1608(11): Class 
+1658(7): Class 
+1657(9): Class 
+1265(9): Class 
+983(11): Class 
+1031(10): Class 
+935(9): Class 
+982(11): Class 
+1363(11): Class 
+1509(9): Class 
+1461(11): Class 
+1462(9): Class 
+1508(8): Class 
+1460(9): Class 
+793(8): Class 
+746(8): Class 
+794(8): Class 
+1705(8): Class 
+1704(9): Class 
+1695(11): Class 
+1714(8): Class 
+1173(12): Class 
+1125(10): Class 
+1647(10): Class 
+1655(9): Class 
+1654(9): Class 
+1560(10): Class 
+1561(8): Class 
+1606(9): Class 
+Class(10): 
+LogScore Bayes: -606898.3497621879
+LogScore BDeu: -622493.7408122233
+LogScore MDL: -620326.6950334315
+LogScore ENTROPY: -604748.2441792956
+LogScore AIC: -608227.2441792956
+
+Attribute mappings:
+
+Model attributes 	    Incoming attributes
+-----------------	    ----------------
+(numeric) 744    	--> 1 (numeric) 744
+(numeric) 745    	--> 2 (numeric) 745
+(numeric) 792    	--> 3 (numeric) 792
+(numeric) 742    	--> 4 (numeric) 742
+(numeric) 747    	--> 5 (numeric) 747
+(numeric) 1168   	--> 6 (numeric) 1168
+(numeric) 1167   	--> 7 (numeric) 1167
+(numeric) 1120   	--> 8 (numeric) 1120
+(numeric) 1215   	--> 9 (numeric) 1215
+(numeric) 1216   	--> 10 (numeric) 1216
+(numeric) 1609   	--> 11 (numeric) 1609
+(numeric) 1656   	--> 12 (numeric) 1656
+(numeric) 1610   	--> 13 (numeric) 1610
+(numeric) 1608   	--> 14 (numeric) 1608
+(numeric) 1658   	--> 15 (numeric) 1658
+(numeric) 1657   	--> 16 (numeric) 1657
+(numeric) 1265   	--> 17 (numeric) 1265
+(numeric) 983    	--> 18 (numeric) 983
+(numeric) 1031   	--> 19 (numeric) 1031
+(numeric) 935    	--> 20 (numeric) 935
+(numeric) 982    	--> 21 (numeric) 982
+(numeric) 1363   	--> 22 (numeric) 1363
+(numeric) 1509   	--> 23 (numeric) 1509
+(numeric) 1461   	--> 24 (numeric) 1461
+(numeric) 1462   	--> 25 (numeric) 1462
+(numeric) 1508   	--> 26 (numeric) 1508
+(numeric) 1460   	--> 27 (numeric) 1460
+(numeric) 793    	--> 28 (numeric) 793
+(numeric) 746    	--> 29 (numeric) 746
+(numeric) 794    	--> 30 (numeric) 794
+(numeric) 1705   	--> 31 (numeric) 1705
+(numeric) 1704   	--> 32 (numeric) 1704
+(numeric) 1695   	--> 33 (numeric) 1695
+(numeric) 1714   	--> 34 (numeric) 1714
+(numeric) 1173   	--> 35 (numeric) 1173
+(numeric) 1125   	--> 36 (numeric) 1125
+(numeric) 1647   	--> 37 (numeric) 1647
+(numeric) 1655   	--> 38 (numeric) 1655
+(numeric) 1654   	--> 39 (numeric) 1654
+(numeric) 1560   	--> 40 (numeric) 1560
+(numeric) 1561   	--> 41 (numeric) 1561
+(numeric) 1606   	--> 42 (numeric) 1606
+(nominal) Class  	--> 43 (nominal) Class
+
+
+Time taken to build model: 0.42 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.09 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         678               34.9845 %
+Incorrectly Classified Instances      1260               65.0155 %
+Kappa statistic                          0.2659
+Mean absolute error                      0.1307
+Root mean squared error                  0.3442
+Relative absolute error                 79.2901 %
+Root relative squared error            119.9135 %
+Total Number of Instances             1938     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.663    0.190    0.373      0.663    0.478      0.381    0.835     0.440     three
+                 0.311    0.093    0.504      0.311    0.385      0.263    0.695     0.491     two
+                 0.162    0.090    0.348      0.162    0.221      0.098    0.691     0.344     one
+                 0.491    0.016    0.639      0.491    0.555      0.537    0.821     0.574     eight
+                 0.136    0.000    1.000      0.136    0.240      0.334    0.752     0.621     four
+                 0.458    0.008    0.595      0.458    0.518      0.512    0.941     0.531     seven
+                 0.852    0.079    0.237      0.852    0.371      0.424    0.965     0.580     nine
+                 0.857    0.198    0.088      0.857    0.159      0.235    0.909     0.293     zero
+                 0.653    0.051    0.331      0.653    0.439      0.437    0.903     0.474     six
+                 0.500    0.005    0.677      0.500    0.575      0.574    0.944     0.602     five
+Weighted Avg.    0.350    0.079    0.541      0.350    0.345      0.295    0.765     0.482     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+ 187   8   8  10   0   1  25  20  23   0 |   a = three
+  97 140  68   5   0   3  37  85  15   0 |   b = two
+  71  76  72   0   0   0  18 190  14   3 |   c = one
+   4   0   2  53   0   3  16   8  22   0 |   d = eight
+ 132  49  53   0  54   6  18  70  13   1 |   e = four
+   0   1   2   5   0  22   6   0   8   4 |   f = seven
+   2   0   1   1   0   0  46   2   0   2 |   g = nine
+   1   2   1   0   0   0   2  36   0   0 |   h = zero
+   4   2   0   3   0   1  15   0  47   0 |   i = six
+   3   0   0   6   0   1  11   0   0  21 |   j = five
+
